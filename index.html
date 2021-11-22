@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+
+        <header>
+        <div class="container">
+            <div class="nav-bar">
+                
+                <div class="nav-left">
+                    <img src="./image/instagram-logo.png" alt="instagram-logo" class="insta-logo">
+                </div>
+                <div class="nav-right">
+                    <button class="btn-head">Главная</button>
+                    <button class="btn-add">Добавить</button>
+                        <input type="text" placeholder="Название" class="search">
+                        <button class="btn-search">Поиск</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="add-post">
+                <button class="btn-add">+</button>
+                <h3>Добавить пост</h3>
+            </div>
+            <div class="post-container">
+                <div class="post-item">
+                    <img src="./image/instagram-logo.png" class="postItemImg" alt="">
+                    
+                                <div class="reactions">
+                                    <img src="https://www.pinclipart.com/picdir/big/164-1646319_microsoft-clipart-online.png" class="edit" id="icon">
+                                   
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Delete-button.svg/862px-Delete-button.svg.png" class="delete" id="icon">
+                                </div>     
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-post">
+            <div class="modal-postAdd">
+                <button class="btnClose-modal">X</button>
+                <h2>Add post</h2>
+                <div class="input-modal">
+                    <span>Введите название поста</span><br>
+                    <input type="text" class="name-modal" id="modal-input"><br>
+                    <span>Загрузите изображение</span><br>
+                    <input type="url" class="img-modal" id="modal-input"><br>
+                    <span>Напишите описание</span><br>
+                    <input type="text" class="opis-modal" rows = "5" id="modal-input"> <br>
+                </div>
+                <button class="btn-addPost">Add</button>
+            </div>
+        </div>
+    </header>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
